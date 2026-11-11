@@ -1,0 +1,24 @@
+{
+  "name": "so_farmer",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_farmer": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "human",
+      "type": "so_farmer",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}

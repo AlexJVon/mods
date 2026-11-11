@@ -1,0 +1,24 @@
+{
+  "name": "so_trader",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_trader": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avian",
+      "type": "so_trader",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}
