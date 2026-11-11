@@ -1,0 +1,24 @@
+{
+  "name": "so_historian",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_historian": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avian",
+      "type": "so_historian",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}

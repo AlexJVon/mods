@@ -1,0 +1,26 @@
+{
+  "objectName": "so_tamer_plaque",
+  "colonyTags": [
+    "so_role_tamer"
+  ],
+  "rarity": "Common",
+  "description": "A role marker for a tamer tenant. Place only one role plaque in a room.",
+  "shortdescription": "Tamer Role Plaque",
+  "race": "generic",
+  "category": "decorative",
+  "price": 10,
+  "inventoryIcon": "plaque.png",
+  "orientations": [
+    {
+      "dualImage": "plaque.png:<color>",
+      "imagePosition": [
+        0,
+        0
+      ],
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
+    }
+  ]
+}

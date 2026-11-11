@@ -1,0 +1,24 @@
+{
+  "name": "so_engineer",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_engineer": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "glitch",
+      "type": "so_engineer",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}

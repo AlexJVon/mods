@@ -1,0 +1,24 @@
+{
+  "name": "so_elder",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_elder": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "glitch",
+      "type": "so_elder",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}

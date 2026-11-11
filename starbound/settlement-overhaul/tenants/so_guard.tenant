@@ -1,0 +1,24 @@
+{
+  "name": "so_guard",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_guard": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "hylotl",
+      "type": "so_guard",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "objectName": "so_historian_plaque",
+  "colonyTags": [
+    "so_role_historian"
+  ],
+  "rarity": "Common",
+  "description": "A role marker for a historian tenant. Place only one role plaque in a room.",
+  "shortdescription": "Historian Role Plaque",
+  "race": "generic",
+  "category": "decorative",
+  "price": 10,
+  "inventoryIcon": "plaque.png",
+  "orientations": [
+    {
+      "dualImage": "plaque.png:<color>",
+      "imagePosition": [
+        0,
+        0
+      ],
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
+    }
+  ]
+}

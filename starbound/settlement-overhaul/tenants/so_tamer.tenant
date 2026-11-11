@@ -1,0 +1,24 @@
+{
+  "name": "so_tamer",
+  "priority": 1000,
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "so_role_tamer": 1
+  },
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avian",
+      "type": "so_tamer",
+      "overrides": {}
+    }
+  ],
+  "rent": {
+    "periodRange": [
+      1000.0,
+      1400.0
+    ],
+    "pool": "merchantGift"
+  }
+}
